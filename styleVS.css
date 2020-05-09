@@ -1,0 +1,149 @@
+﻿html, body {
+    font-family: 'Radley', serif;
+    margin:0; 
+    
+}
+
+.contenu {
+    display: flex;
+}
+
+#partie_gauche {
+    background: #EBCBB7;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+address, .myself, .icones {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+.icones {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+   .titre_gauche {
+    background: grey;
+    text-align: center;
+    font-size: 30px;
+}
+
+img {
+    border-radius: 250px;
+    margin-top: 30px;
+}
+.fanny{
+
+    text-align:center;
+}
+.icone {
+
+    border: 4px solid grey;
+    border-radius: 100%;
+    width:40px;
+    height:40px;
+    text-align: center;
+   padding-top: 8px;
+   padding-left: 8px;
+   padding-right: 8px;
+ 
+}
+#bas{
+    padding-top: 500px;
+}
+
+#partie_droite {
+    margin-left: 40px;
+    display: flex;
+    flex-direction:column;
+}
+
+.titre{
+    line-height:10px;
+    margin-top: 100px;
+}
+h1 {
+    font-size: 50px;
+}
+    h1 span {
+        color: #EBCBB7;
+    }
+h2 span {
+    border-bottom: 3px solid #EBCBB7;
+    padding-bottom:2px;
+}
+hr {
+    color: #EBCBB7;
+}
+.titre_droit {
+    margin-top: 125px;
+    border-bottom: 3px solid #EBCBB7;
+    padding-bottom:5px;
+}
+h3 {
+    font-size: 30px;
+}
+h3 span {
+    margin-right: 25px;
+}
+.logo {
+    color: #EBCBB7;
+}
+
+#partie_droite i {
+    color: #EBCBB7;
+    
+}
+.partie_formation
+{
+    display:flex;
+    
+}
+.partie_formation h4 {
+    font-size:23px;
+}
+
+
+.formation_gauche {
+    padding-top:30px;
+}
+
+.formation_droite {
+
+    margin-left:290px;
+    
+}
+.formation_droit {
+    margin-left: 350px;
+    
+}
+
+.partie_experience {
+    display: flex;
+}
+.partie_experience h4 {
+    font-size:23px;
+}
+
+.experience_gauche {
+    padding-top:35px;
+}
+.experience_droit{
+    margin-left:325px;
+}
+.experience_droite {
+    margin-left: 280px;
+    
+}
+#partie_recommandation {
+    display:flex;
+   
+}
+.recommandation_droite {
+    margin-left:200px;
+}
